@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: #2c3e50;
+}
+
+main{
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  max-height: 450px;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+main .app h1{
+  font-size: 34px;
+  color:#333;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+main .app{
+  padding: 20px 0px;
+}
+
+main .app h2{
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+main .app .btn{
+  background: #ddd;
+  color: #333;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0px;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+main .app .btn:hover{
+  background: #555;
+  color: #fff;
+}
+
+main .app .btn:disabled{
+  background: #ccc;
+  color: #888;
+  cursor: no-drop;
+}
+
+main .app #next-btn{
+  display: none;
+  background: #333;
+  color: white;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn.selected {
+  background-color: #f44336;
+  color: white;
+}

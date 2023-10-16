@@ -130,7 +130,7 @@ function selectAnswer(answer, btn) {
 
 function showScore() {
   resetState();
-  questionElement.innerHTML = `your score ${score} out of ${questions.length}`;
+  questionElement.innerHTML = `Score Anda ${score} dari ${questions.length} pertanyaan`;
   nextButton.innerHTML = "Play again?";
   nextButton.style.display = "block";
 }
